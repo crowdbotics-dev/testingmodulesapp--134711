@@ -1465,6 +1465,9 @@
 "@modules/fingerprint-authentication@file:./modules/fingerprint-authentication":
   version "1.0.0"
 
+"@modules/fingerprint-authentication@file:./modules/fingerprint-authentication/":
+  version "1.0.0"
+
 "@modules/onboarding@file:./modules/onboarding":
   version "1.0.0"
   dependencies:
@@ -1484,13 +1487,6 @@
     uuid "^8.3.2"
 
 "@modules/user-profile@file:./modules/user-profile":
-  version "1.0.0"
-  dependencies:
-    "@react-navigation/native" "^5.9.2"
-    prop-types "15.8.1"
-    react-native-elements "^2.3.2"
-
-"@modules/user-profile@file:./modules/user-profile/":
   version "1.0.0"
   dependencies:
     "@react-navigation/native" "^5.9.2"
